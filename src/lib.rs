@@ -35,7 +35,6 @@ pub fn iter(ts: proc_macro::TokenStream) -> proc_macro::TokenStream {
         .into()
 }
 
-
 /// Creates an iterator for the mutable reference to a tuple as trait objects.
 ///
 /// ```

@@ -1,0 +1,18 @@
+[package]
+name = "tuple-iter"
+version = "0.1.0"
+authors = ["SOFe <sofe2038@gmail.com>"]
+edition = "2018"
+license = "Apache-2.0"
+repository = "https://github.com/SOF3/tuple-iter"
+homepage = "https://github.com/SOF3/tuple-iter"
+readme = "README.md"
+description = "Generate iterator types for tuples of items implementing the same trait"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro2 = "1.0.29"
+quote = "1.0.9"
+syn = "1.0.77"
